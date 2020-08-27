@@ -103,3 +103,39 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# compiled output
+nestjs-task-management/dist
+nestjs-task-management/node_modules
+
+# Logs
+nestjs-task-management/logs
+nestjs-task-management/*.log
+nestjs-task-management/npm-debug.log*
+nestjs-task-management/yarn-debug.log*
+nestjs-task-management/yarn-error.log*
+nestjs-task-management/lerna-debug.log*
+
+# OS
+nestjs-task-management/.DS_Store
+
+# Tests
+nestjs-task-management/coverage
+nestjs-task-management/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+nestjs-task-management/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
