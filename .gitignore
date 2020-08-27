@@ -39,7 +39,6 @@ build/Release
 
 # Dependency directories
 node_modules/
-nestjs-task-management/node_modules
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -106,23 +105,23 @@ dist
 
 
 # compiled output
-nestjs-task-management/dist
-nestjs-task-management/node_modules
+/dist
+/node_modules
 
 # Logs
-nestjs-task-management/logs
-nestjs-task-management/*.log
-nestjs-task-management/npm-debug.log*
-nestjs-task-management/yarn-debug.log*
-nestjs-task-management/yarn-error.log*
-nestjs-task-management/lerna-debug.log*
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
 # OS
-nestjs-task-management/.DS_Store
+.DS_Store
 
 # Tests
-nestjs-task-management/coverage
-nestjs-task-management/.nyc_output
+/coverage
+/.nyc_output
 
 # IDEs and editors
 /.idea
@@ -134,7 +133,7 @@ nestjs-task-management/.nyc_output
 *.sublime-workspace
 
 # IDE - VSCode
-nestjs-task-management/.vscode/*
+.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
