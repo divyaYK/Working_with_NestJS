@@ -1,7 +1,7 @@
 # A Sample NestJs Application
 
 <p style="text-align: center;">
-<img src="./mermaid-diagram.svg" style="height:400px">
+<img src="./mermaid-diagram.svg" style="height:500px">
 </p>
 
 ## Installation
