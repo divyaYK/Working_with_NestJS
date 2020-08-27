@@ -35,3 +35,23 @@ $ yarn run test:e2e
 # test coverage
 $ yarn run test:cov
 ```
+
+## Important Nest Commands
+
+```bash
+# Module creation
+$ nest g module <module-name>
+
+# Controller creation
+$ nest g controller <module-name> --no-spec
+
+# Service creation
+$ nest g service tasks --no-spec
+```
+
+## External Packages Installed
+
+```bash
+# id generator
+$ yarn add uuid
+```
