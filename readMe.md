@@ -54,4 +54,7 @@ $ nest g service tasks --no-spec
 ```bash
 # id generator
 $ yarn add uuid
+
+# validation and transformation
+$ yarn add class-validator class-transformer
 ```
