@@ -52,9 +52,9 @@ $ nest g service tasks --no-spec
 ## External Packages Installed
 
 ```bash
-# id generator
-$ yarn add uuid
-
 # validation and transformation
 $ yarn add class-validator class-transformer
+
+# TypeORM, NestJs bridge for using TypeORM and PostgreSQL client
+$ yarn add typeorm @nestjs/typeorm pg
 ```
